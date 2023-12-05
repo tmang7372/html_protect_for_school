@@ -1,0 +1,42 @@
+article, footer, header, main, nav { 
+   display: block;
+}
+
+address, article, body, div, dl, dt, dd, em, footer, 
+h1, h2, h3, h4, h5, h6, header, html, img, 
+li, main, nav, ol, p, section, span, ul {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;  
+}
+
+ul {
+   list-style: none;
+   list-style-image: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+body {
+   line-height: 1;
+}
+
+
+
+body {
+    width: 1024px;
+    height: 768px;
+    background-color: brown;
+    margin: 0 auto;
+
+}
+
+

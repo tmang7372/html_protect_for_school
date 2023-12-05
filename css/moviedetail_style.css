@@ -1,0 +1,336 @@
+/*Style the header*/
+body > header {
+    background-image: linear-gradient(red,#2c07a5);
+    border-radius: 5px;
+} 
+
+/*Style the cinema logo*/
+header > img {
+    width: 12%;
+    margin: 15px;
+}
+
+/*Style the navigation bar of the image*/
+header > nav {
+   float: right;
+}
+
+nav  {
+    display: table;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+nav > ul  {
+    display: table-row;
+}
+
+nav > ul > li {
+    display: table-cell;
+}
+
+/*Style the search logo of the navigation bar*/
+header > nav > ul > li > span > img {
+    width: 20px;
+    height: 25px;
+}
+
+/*Style the navigation link*/
+header > nav > ul > li > a.link_class {
+    font-family: Garamond,serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    word-spacing: 1px;
+    color: #eeda11;
+    display: block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*Style the a:link, a:visited, a:hover, a:active of the navigation bar*/
+nav#navigationbar_id a:link  {
+    color: #eeda11;
+ }
+ 
+nav#navigationbar_id a:visited  {
+    color: hsl(203, 63%, 72%); 
+} 
+ 
+nav#navigationbar_id a:hover, nav#navigationbar_id a:active  {
+    background-color: rgba(133, 43, 243, 0.89);
+ }  
+
+/*Style of Doctor Strange Image*/
+article#doctor_strange_moviedetail_article {
+    background-image: linear-gradient(red,#2c07a5);
+    border-radius: 2em;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+/*Style the image of doctor strange the movie*/
+article#doctor_strange_moviedetail_article > div#doctor_strange_moviedetail_div_id > 
+div#image_of_doctor_strangle_div > img {
+    float: left;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left:1.5em;
+    width: 25%;
+}
+
+/*Style the heading and paragraph of Doctor Strange*/
+article#doctor_strange_moviedetail_article > div#doctor_strange_detail_content_div_id 
+{
+    float: left;
+    margin-left: 60px;
+    overflow: hidden;
+    /* display: table; */
+}    
+
+/*Style the heading of Doctor Strange*/
+article#doctor_strange_moviedetail_article > div#doctor_strange_detail_content_div_id >
+div#doctor_strange_header_div_id > header > h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    letter-spacing: 2.5px;
+    word-spacing: 4.5px;
+    color: #eeda11;
+    margin-top: 0.7em;
+}
+
+/*Style the movie misc of doctor strange the movie*/
+article#doctor_strange_moviedetail_article > div#doctor_strange_detail_content_div_id >
+div#doctor_strange_header_div_id > span#misc_id{
+    display: block;
+    margin-top: 20px;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #eeda11;
+    letter-spacing: 1.2px;
+}
+
+/*Style the paragraph*/
+article#doctor_strange_moviedetail_article > div#doctor_strange_detail_content_div_id >
+div#movie_summary_div_id > p {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    letter-spacing:0.9px;
+    word-spacing: 1px;
+    line-height: 1.4em;
+    color: #ada118;
+
+}
+
+/*Style the director, casting of the doctor strange the movie*/
+article#doctor_strange_moviedetail_article > div#movie_cast_detail_div_id >
+div#movie_cast_div_id > p{
+    float: left;
+    display: block;
+    width:20%;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:50px;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding: 1px;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    line-height: 1.4em;
+    color: #ada118;
+}
+
+/*Style the genre, director, casting of the doctor strange the movie*/
+article#doctor_strange_moviedetail_article > div#movie_cast_detail_div_id >
+div#movie_cast_div_id > p strong {
+    font-size: 1.3em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: #eeda11;
+}
+
+/*Style the concession for the movie*/
+article#doctor_strange_moviedetail_article > div#movie_cast_detail_div_id >
+div#need_to_know_id {
+    float:left;
+    display: block;
+    width:25%;
+    margin-top: 2px;
+ }
+
+ /*Style for the title Need to know*/
+article#doctor_strange_moviedetail_article > div#movie_cast_detail_div_id >
+div#need_to_know_id > h3 {
+       font-size: 1.3em;
+       margin-left: 50px;
+       margin-top: 5px;
+       letter-spacing: 5px;
+       color: #eeda11;
+}
+
+article#doctor_strange_moviedetail_article > div#movie_cast_detail_div_id >
+div#need_to_know_id > ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+    padding: 1px;
+    color: #ada118;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-bottom: 1em;
+}
+
+/*Style the table*/
+article#show_times_article_id{
+    background-image: linear-gradient(red,#2c07a5);
+    border-radius: 2em;
+    margin-top: 40px;
+    overflow: hidden;
+    width: 100%;
+}
+
+article#show_times_article_id > div#table_show_times_div_id > table {
+    clear: both;
+    float: left;
+    width: 50%;
+    background: white;
+    border: 15px outset rgb(71, 235, 16);
+    font-family: Arial, Verdina, sans-serif;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2.1em;
+}
+
+article#show_times_article_id > div#table_show_times_div_id > table tr {
+    height: 33px;
+}
+
+article#show_times_article_id > div#table_show_times_div_id > table th ,
+article#show_times_article_id > div#table_show_times_div_id > table  td{
+    border: 1px solid rgb(2, 39, 15);
+    padding: 5px;
+    vertical-align: middle;
+    text-align: center;
+    color: hsl(254, 83%, 55%);
+}
+
+/*Style the table caption*/
+article#show_times_article_id > div#table_show_times_div_id > table caption {
+    text-align: center;
+    font-size: 1.1em;
+    color: #eeda11;
+    margin: 5px;
+}
+
+/*Style the individual link of the cell*/
+article#show_times_article_id > div#table_show_times_div_id > table  td a {
+    text-decoration: none;
+    color: #2c07a5;
+}
+
+/*Style the link a:link, a:visited, a:hover, a:active of each cell of the table*/
+article#show_times_article_id > div#table_show_times_div_id > table  td a:link {
+    color: #2c07a5;
+}
+ 
+ article#show_times_article_id > div#table_show_times_div_id > table  td a:visited {
+    color: hwb(128 18% 8%);
+}
+ 
+article#show_times_article_id > div#table_show_times_div_id > table  td a:hover, 
+article#show_times_article_id > div#table_show_times_div_id > table  td a:active {
+    background-color: rgba(62, 239, 27, 0.89);
+ }  
+
+/*Style the image*/
+article#show_times_article_id > div#images_of_doctor_strange_id_div h2 {
+    margin-left: 31.5em;
+    margin-top: 10px;
+    display: block;
+    font-size: 1.5em;
+    color: #eeda11;
+}
+
+/*Style the left side of the image*/
+article#show_times_article_id > div#images_of_doctor_strange_id_div >
+div#small_doctor_strange_image_odd_div_id {
+    float: left;
+    display: block;
+    width: 20%;
+    margin-left: 4em;
+}
+
+article#show_times_article_id > div#images_of_doctor_strange_id_div >
+div#small_doctor_strange_image_odd_div_id img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: 0.5px solid rgb(178, 236, 52);
+    width:60%;
+}
+
+/*Style the img when the mouse move over*/
+article#show_times_article_id > div#images_of_doctor_strange_id_div >
+div#small_doctor_strange_image_odd_div_id img:hover {
+    box-shadow: 0 0 14px 14px rgba(245, 237, 169, 0.5);
+}
+ 
+/*Style the right side of the image*/
+article#show_times_article_id > div#images_of_doctor_strange_id_div >
+div#small_doctor_strange_images_even_div_id {
+    float: left;
+    width: 20%;
+}
+
+article#show_times_article_id > div#images_of_doctor_strange_id_div >
+div#small_doctor_strange_images_even_div_id img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: 0.5px solid rgb(178, 236, 52);
+    width:60%;
+}
+
+/*Style the image when the mouse mover over*/
+article#show_times_article_id > div#images_of_doctor_strange_id_div >
+div#small_doctor_strange_images_even_div_id img:hover {
+    box-shadow: 0 0 14px 14px rgba(245, 237, 169, 0.5);
+}
+
+/*Style the footer*/
+footer {
+    background-image: linear-gradient(red,#2c07a5);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 40px;
+ }
+
+footer > div > p {
+    margin-top: 2.4em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    color: #eeda11;
+    float: left;
+    width: 55%;
+}
+
+footer > div > ul >li {
+    display: block;
+    width: 5%;
+    float: right;
+}
+
+footer > div > ul > li > a > img {
+   width: 100%;
+   margin-top: 1.5em;
+   margin-bottom: 1em;
+   padding-right: 1em;
+}
+

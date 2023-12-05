@@ -1,0 +1,188 @@
+@font-face {
+    font-family: GloberFont;
+    src: url(/fonts/Glober\ SemiBold\ Free.otf);
+  }
+  
+/*Style the header*/
+body > header {
+    background-image: linear-gradient(red,#2c07a5);
+    border-radius: 5px;
+} 
+
+/*Style the logo of the cinema*/
+header > img {
+    width: 12%;
+    margin: 15px;
+}
+
+/*Style the navigration*/
+header > nav {
+   float: right;
+}
+
+header > nav  {
+    display: table;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+nav > ul  {
+    display: table-row;
+    
+}
+
+nav > ul > li {
+    display: table-cell;
+}
+
+/*Style the navigration link*/
+header > nav > ul > li > a.link_class {
+    font-family: Garamond,serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    word-spacing: 1px;
+    color: #eeda11;
+    display: block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*Style the search bar*/
+header > nav > ul > li > span > img {
+    width: 20px;
+    height: 25px;
+}
+
+/*Style for the navigation a:link, a:visited, a:hover and a:activited*/
+nav#navigationbar_id a:link  {
+    color: #eeda11;
+ }
+ 
+nav#navigationbar_id a:visited  {
+    color: hsl(203, 63%, 72%); 
+} 
+ 
+nav#navigationbar_id a:hover, nav#navigationbar_id a:active  {
+    background-color: rgba(133, 43, 243, 0.89);
+ }  
+ 
+ 
+ /*Style the form article*/
+ article#form_article {
+    background-image: linear-gradient(red,#2c07a5);
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    overflow: hidden;
+ }
+
+ /*Style the h1 tag*/
+ article#form_article > h1 {
+    font-family: GloberFont;
+    font-size: 2.1em;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    color: #eeda11;
+    padding: 8px;
+    text-align: center;
+    
+ }
+
+ /*Style the form*/
+form {
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*Style the label*/
+label {
+    float: left;
+    width: 30%;
+    margin-left:65px;
+    margin-bottom:2px;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f3e659;
+}
+
+/*Style the input, select, textarea*/
+input, textarea, select {
+    float: left;
+    margin-bottom: 10px;
+    width: 45%;
+}
+
+/*Style the placeholder area of input*/
+input::placeholder {
+    color: #cf3c0b; 
+}
+
+/*Style the option area of the select*/
+select option {
+    color: #cf3c0b;
+}
+
+div#container_submit_id {
+    display: block;
+    width: 40%;
+    margin-left: 18em;
+    margin-bottom: 5px;
+}
+
+#submit_id {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f359ab;
+    border: 2px solid hsl(84, 81%, 77%);
+    padding: 5px;
+} 
+
+/* Validation Styles */
+input:focus, select:focus, textarea:focus {
+   background: rgb(102, 236, 102) url(../images/logo/pc_valid.png) bottom right/contain no-repeat;
+}
+
+input#first_name:focus:invalid,
+input#last_name:focus:invalid,
+input#email:focus:invalid,
+input#confirm_email:focus:invalid  {
+   background: rgb(81, 208, 224) url(../images/logo/pc_invalid.png) bottom right/contain no-repeat;
+}
+
+/*Style the footer*/
+body > footer {
+    background-image: linear-gradient(red,#2c07a5);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 40px;
+ }
+
+/*Style the footer text*/
+footer > div > p {
+     margin-top: 2.4em;
+     margin-bottom: 1em;
+     margin-left: 1em;
+     font-family: Helvetica, sans-serif;
+     font-size: 0.9em;
+     color: #eeda11;
+     float: left;
+     width: 55%;
+    }
+
+footer > div > ul >li {
+     display: block;
+     width: 5%;
+     float: right;
+ }
+
+ /*Style the footer image*/
+footer > div > ul > li > a > img {
+    width: 100%;
+    margin-top: 1.5em;
+    padding-right: 1em;
+    margin-bottom: 1em;    
+ }
+

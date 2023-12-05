@@ -1,0 +1,447 @@
+@font-face {
+    font-family: GloberFont;
+    src: url(/fonts/Glober\ SemiBold\ Free.otf);
+  }
+
+/*Style the header*/
+body > header {
+    background-image: linear-gradient(red,#2c07a5);
+    border-radius: 5px;
+} 
+
+/*Style the logo of the cinema*/
+header > img {
+    width: 12%;
+    margin: 15px;
+}
+
+/*Style the navigration*/
+header > nav {
+   float: right;
+}
+
+nav  {
+    display: table;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+nav > ul  {
+    display: table-row;
+    
+}
+
+nav > ul > li {
+    display: table-cell;
+}
+
+/*Style the navigration link*/
+header > nav > ul > li > a.link_class {
+    font-family: Garamond,serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    word-spacing: 1px;
+    color: #eeda11;
+    display: block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*Style the search bar*/
+header > nav > ul > li > span > img {
+    width: 20px;
+    height: 25px;
+}
+
+/*Style for the navigation a:link, a:visited, a:hover and a:activited*/
+nav#navigationbar_id a:link  {
+    color: #eeda11;
+ }
+ 
+nav#navigationbar_id a:visited  {
+    color: hsl(203, 63%, 72%); 
+} 
+ 
+nav#navigationbar_id a:hover, nav#navigationbar_id a:active  {
+    background-color: rgba(133, 43, 243, 0.89);
+ } 
+ 
+/*Style the title movies*/
+h2#title_movies_h2_id {
+    font-family: GloberFont;
+    font-size: 2.2em;
+    font-weight: bolder;
+    color: #eeda11;
+    margin-top: 40px;
+    margin-left:1.9em;
+    letter-spacing: 2px;
+}
+
+/*Style the movie doctor strange the movie*/
+article#doctor_strange_movie_article {
+    width: 88%;
+    margin:20px auto;
+    background-image: linear-gradient(red,#2c07a5);
+    border-radius: 2em;
+    overflow: hidden;
+    box-shadow: 10px 10px 2px 2px #450703 ;
+}
+
+/*Style the image of doctor strange the movie*/
+article#doctor_strange_movie_article > div#image_doctor_strange_id  img{
+    float: left;
+    margin-left: 3em;
+    margin-top: 1.4em;
+    margin-bottom: 1em;
+}
+
+/*Style the description of the doctor strange the movie*/
+article#doctor_strange_movie_article > div#summary_of_doctor_strange_id {
+    float: left;
+    margin-left: 3.5em;
+}
+
+/*Style the heading title of doctor strange the movie*/ 
+article#doctor_strange_movie_article > div#summary_of_doctor_strange_id > h4.title_movie_h4_class {
+    margin-top: 1em;
+    font-size: 1.3em;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.1em;
+    letter-spacing: 1px;
+}
+
+/*Style the link of the header h4 of all the movies*/
+.title_movie_h4_class a {
+    color: #eeda11;
+}
+
+/*Style the summary paragraph of doctor strange the movie*/
+article#doctor_strange_movie_article > div#summary_of_doctor_strange_id > p {
+    margin-top: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    letter-spacing: 0.7px;
+    padding: 0.5em;
+    color: #f3e442;
+}
+
+/*Style the paragraph cast of the strange movie*/
+article#doctor_strange_movie_article > div#cast_of_doctor_strange_id > p {
+    float: left;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f3e442;
+    line-height: 1.5em;
+    margin-left:2.8em;
+    margin-top:1.5em;
+
+}
+
+/*Style the booking of doctor strange the movie*/
+article#doctor_strange_movie_article > div#cast_of_doctor_strange_id > span#booknowOne_id {
+    background-color: #036434;
+    border-radius: 0.9em;
+    font-size: 1.1em;
+    width: 6em;
+    height: 2em;
+    display: inline-block;
+    margin-top: 1em;
+    margin-left: 2.8em;
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+/*Style the booking link for all the book now button*/
+span.booknow_id a {
+    color: #eeda11;
+    font-weight: bold;
+}
+
+strong {
+    color:  #f7e842;
+    font-size: 1.2em;
+}
+
+/*Style the movie fantastic beast the movie*/
+article#fantastic_beast_movie_article {
+    clear: both;
+    width: 88%;
+    margin:80px auto;
+    background-image: linear-gradient(red,#2c07a5);
+    border-radius: 2em;
+    overflow: hidden;
+    box-shadow: 10px 10px 2px 2px #450703 ;
+}
+
+/*Style the image of fantastic beast the movie*/
+article#fantastic_beast_movie_article > div#image_of_fantastic_beast_movie_id img{
+    float: left;
+    margin-left: 3em;
+    margin-top: 1.4em;
+    margin-bottom: 1em;
+}
+
+/*Style the summary paragraph of fantastic beast the movie*/
+article#fantastic_beast_movie_article > div#summary_of_fantastic_beast_movie_id {
+    float: left;
+    margin-left: 3.5em;
+}
+
+/*Style the title of the fantastic beast the movie*/
+article#fantastic_beast_movie_article > div#summary_of_fantastic_beast_movie_id > h4 {
+    margin-top: 1em;
+    font-size: 1.3em;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.1em;
+    letter-spacing: 1px;
+    
+}
+
+/*Style the paragraph of the summary of fantastic beast the movie*/
+article#fantastic_beast_movie_article > div#summary_of_fantastic_beast_movie_id > p {
+    margin-top: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    letter-spacing: 0.7px;
+    padding: 0.5em;
+    color: #f3e442;
+
+}
+
+/*Style the cast of the fantastic beast the movie*/
+article#fantastic_beast_movie_article > div#cast_of_fantastic_beast_movie_id > p {
+    float: left;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f3e442;
+    line-height: 1.5em;
+    margin-left: 2.8em;
+    margin-top: 1.5em;
+
+}
+
+/*Style the span book in of the fantastic beast the movie*/
+article#fantastic_beast_movie_article > div#cast_of_fantastic_beast_movie_id > span#booknowTwo_id {
+    background-color: #036434;
+    border-radius: 0.9em;
+    font-size: 1.1em;
+    width: 6em;
+    height: 2em;
+    display: inline-block;
+    margin-top: 1em;
+    margin-left: 2.8em;
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+/*Style the article of the lost city the movie*/
+article#lost_city_movie_article {
+    clear: both;
+    width: 88%;
+    margin:80px auto;
+    background-image: linear-gradient(red,#2c07a5);
+    border-radius: 2em;
+    overflow: hidden;
+    box-shadow: 10px 10px 2px 2px #450703 ;
+}
+
+/*Style the image of the lost city the movie*/
+article#lost_city_movie_article > div#image_of_lost_city_movie_id  img{
+    float: left;
+    width: 19.5%;
+    margin-left: 3em;
+    margin-top: 1.4em;
+    margin-bottom: 1em;
+}
+
+/*Style the summary of the lost city the movie*/
+article#lost_city_movie_article > div#summary_of_lost_city_movie_id {
+    float: left;
+    margin-left: 3.5em;
+}
+
+/*Style the title of the lost city the movie*/
+article#lost_city_movie_article > div#summary_of_lost_city_movie_id > h4 {
+    margin-top: 1em;
+    font-size: 1.3em;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.1em;
+    letter-spacing: 1px;
+}
+
+/*Style the paragraph of summary of the lost city the movie*/
+article#lost_city_movie_article > div#summary_of_lost_city_movie_id > p {
+    margin-top: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    letter-spacing: 0.7px;
+    padding: 0.5em;
+    color: #f3e442;
+}
+
+/*Style the cast of the lost city the movie*/
+article#lost_city_movie_article > div#cast_of_lost_city_movie_id > p {
+    float: left;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f3e442;
+    line-height: 1.5em;
+    margin-left: 2.8em;
+    margin-top: 1.5em;
+
+}
+
+/*Style the span book in of the lost city the movie*/
+article#lost_city_movie_article > div#cast_of_lost_city_movie_id > span#booknowThree_id {
+    background-color: #036434;
+    border-radius: 0.9em;
+    font-size: 1.1em;
+    width: 6em;
+    height: 2em;
+    display: inline-block;
+    margin-top: 1em;
+    margin-left: 2.8em;
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+/*STyle the movie top gun*/
+article#top_gun_movie_article {
+    clear: both;
+    width: 88%;
+    margin:80px auto;
+    background-image: linear-gradient(red,#2c07a5);
+    border-radius: 2em;
+    overflow: hidden;
+    box-shadow: 10px 10px 2px 2px #450703 ;
+}
+
+/*Style the image of the movie top gun*/
+article#top_gun_movie_article > div#image_of_top_gun_movie_id  img{
+    float: left;
+    width: 19.5%;
+    margin-left: 3em;
+    margin-top: 1.5em;
+    margin-bottom: 1.3em;
+}
+
+/*Style the summary of the movie top gun*/
+article#top_gun_movie_article > div#summary_of_top_gun_movie_id {
+    float: left;
+    margin-left: 3.5em;
+}
+
+/*Style the title of the movie top gun*/
+article#top_gun_movie_article > div#summary_of_top_gun_movie_id > h4 {
+    margin-top: 1em;
+    font-size: 1.3em;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.1em;
+    letter-spacing: 1px;
+}
+
+/*Style the summary paragraph of the movie top gun*/
+article#top_gun_movie_article > div#summary_of_top_gun_movie_id > p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    letter-spacing: 0.7px;
+    padding: 0.5em;
+    color: #f3e442;
+}
+
+/*Style the cast of the top gun the movie*/
+article#top_gun_movie_article > div#cast_of_top_gun_movie_id > p {
+    float: left;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f3e442;
+    line-height: 1.5em;
+    margin-left: 2.8em;
+    margin-top: 1.5em;
+
+}
+
+/*Style the span book in*/
+article#top_gun_movie_article > div#cast_of_top_gun_movie_id > span#booknowFour_id {
+    background-color: #036434;
+    border-radius: 0.9em;
+    font-size: 1.1em;
+    width: 6em;
+    height: 2em;
+    display: inline-block;
+    margin-top: 1em;
+    margin-left: 2.8em;
+    padding-top: 0.5em;
+    text-align: center;
+}
+a:hover img {
+    box-shadow: 0 0 14px 14px rgba(245, 237, 169, 0.5);
+} 
+
+/*Style the title link a:link, a:visited, a:hover, a:active*/
+.title_movie_h4_class a:link {
+    color: #eeda11;
+ }
+ 
+.title_movie_h4_class a:visited {
+    color: hsl(203, 63%, 72%); 
+} 
+ 
+.title_movie_h4_class a:hover, .title_movie_h4_class a:active {
+    background-color: rgba(133, 43, 243, 0.89);
+ } 
+ 
+ 
+ span.booknow_id a:link {
+    color: #ede376;
+ }
+ 
+
+ span.booknow_id a:visited {
+    color: rgb(71, 235, 16);
+} 
+ 
+span.booknow_id a:hover, span.booknow_id a:active {
+    background-color: rgba(93, 50, 145, 0.89);
+ }  
+
+/* Footer */
+footer {
+    background-image: linear-gradient(red,#2c07a5);
+    border-radius: 5px;
+    overflow: hidden;
+ }
+
+ footer > div > p {
+    margin-top: 2.4em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    color: #eeda11;
+    float: left;
+    width: 55%;
+    
+   }
+
+footer > div > ul >li {
+    display: block;
+    width: 5%;
+    float: right;
+}
+
+footer > div > ul > li > a > img {
+   width: 100%;
+   margin-top: 1.5em;
+   margin-bottom: 1em;
+   padding-right: 1em;
+   
+}
+

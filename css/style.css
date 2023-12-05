@@ -1,0 +1,396 @@
+@font-face {
+    font-family: GloberFont;
+    src: url(/fonts/Glober\ SemiBold\ Free.otf);
+  }
+  
+/*Style the header*/
+body > header {
+    background-image: linear-gradient(red,#2c07a5);
+    border-radius: 5px;
+} 
+
+/*Style the logo of the cinema*/
+header > img {
+    width: 12%;
+    margin: 15px;
+}
+
+/*Style the navigration*/
+header > nav {
+   float: right;
+}
+
+nav  {
+    display: table;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+nav > ul  {
+    display: table-row;
+    
+}
+
+nav > ul > li {
+    display: table-cell;
+}
+
+/*Style the navigration link*/
+header > nav > ul > li > a.link_class {
+    font-family: Garamond,serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    word-spacing: 1px;
+    color: #eeda11;
+    display: block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*Style the search bar*/
+header > nav > ul > li > span > img {
+    width: 20px;
+    height: 25px;
+}
+
+/*Style for the navigation a:link, a:visited, a:hover and a:activited*/
+nav#navigationbar_id a:link  {
+    color: #eeda11;
+ }
+ 
+nav#navigationbar_id a:visited  {
+    color: hsl(203, 63%, 72%); 
+} 
+ 
+nav#navigationbar_id a:hover, nav#navigationbar_id a:active  {
+    background-color: rgba(133, 43, 243, 0.89);
+ }  
+ 
+/*Style the movie image*/
+article#movies_article {
+    background-image: linear-gradient(red,#2c07a5);
+    margin-top: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/*Style the title of the movie article*/
+article#movies_article > h2 {
+    font-family: GloberFont;
+    font-size: 2.5em;
+    letter-spacing: 5px;
+    word-spacing: 0.5em;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: #cbf3f3;
+}
+
+/*Style the movie image navigation link*/
+article#movies_article > nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article#movies_article > nav > ul > li {
+    float: left;
+    width: 25%;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+/*Style the link of the image*/
+article#movies_article > nav > ul > li > a{
+    font-size: 1.2em;
+    font-family: 'Trebuchet MS',sans-serif;
+    letter-spacing: 1px;
+    font-style: normal;
+    font-weight: bold;
+    color: #bae9e9;
+    display: block;
+    text-align: center;
+} 
+
+/*Style the size of the image*/
+article#movies_article > nav > ul > li > a > img {
+    width: 90%;
+}
+
+/*Style the a:link, a:visited, a:hover, a:active of the image*/
+article#movies_article > nav a:link {
+    color: #bae9e9;
+ }
+
+article#movies_article > nav a:visited {
+    color: #eeda11; 
+ }
+ 
+article#movies_article > nav a:hover, article#movies_article > nav a:active {
+    background-color: rgba(133, 43, 243, 0.89);
+ }
+
+ /*Style the corporate customer article*/
+article#corporate_customer_article {
+    clear: both;
+    width: 100%;
+    background-image: linear-gradient(red,#2c07a5);
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+/*Style the corporate card*/
+article#corporate_customer_article > img {
+   float: left;
+   width: 30%;
+   height: 40%;
+   margin-top: 2%;
+   margin-left: 9%;
+   margin-right:6%;
+}
+
+/*Style the corporate card title*/
+article#corporate_customer_article > h3 {
+    margin-top: 3%;
+    padding: 2% 2%;
+    margin-bottom: 2%;
+    font-family: GloberFont;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #cbf3f3;
+    letter-spacing: 0.1em;
+    word-spacing: 0.4em;
+}
+
+/*Style the corporate card description*/
+article#corporate_customer_article > p {
+    margin-top: -1.5em;
+    font-family: Helvetica, sans-serif;
+    font-size:1.5em ;
+    line-height: 1.2em;
+    word-spacing: 0.4em;
+    letter-spacing: 1px;
+    padding: 0.2em;
+    color: #00FFFF;
+}
+
+/*Style the corporate card navigation bar*/
+article#corporate_customer_article > nav {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Style the navigation link*/
+article#corporate_customer_article > nav > ul > li > a {
+    display: block;
+    font-family: 'Trebuchet MS',sans-serif;
+    font-size: 1.1em;
+    width: 10em;
+    line-height: 2em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    background-color: #036434;
+    color: #bae9e9;
+    text-align: center;
+   
+}
+
+/*Style the corporate custome a:link, a:visited, a:hover, a:active*/
+article#corporate_customer_article a:link {
+    color: #eeda11; 
+ } 
+
+article#corporate_customer_article a:visited {
+    color: hsl(203, 63%, 72%); 
+ } 
+ 
+ article#corporate_customer_article a:hover,article#corporate_customer_article a:active {
+    box-shadow: 0 0 14px 14px rgba(245, 237, 169, 0.5);
+ } 
+
+/*Style the birthday article*/ 
+article#cinema_birthday_article {
+    border-radius: 5px;
+    background-image: linear-gradient(red,#2c07a5);
+}
+
+/*Style the h2 heading of the borthday article*/
+article#cinema_birthday_article h2 {
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 0.5em;
+    font-family: GloberFont;
+    color: #cbf3f3;
+    letter-spacing: 0.1em;
+    word-spacing: 0.5em;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+/*Style the two columns of the birthday article*/
+p.cinema_birthday_class {
+    font-size: 1.0em;
+    line-height: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    font-family: Helvetica,sans-serif;
+    border-radius: 2em;
+    color: #eeda11;
+}
+
+/*Style the basic package column*/
+p#basic_package {
+    width: 30%;
+    box-sizing: border-box;
+    background-color: #036434;
+    float: left;
+    padding: 1em 1em;
+    margin-left: 14%;
+    box-shadow: -10px -10px 22px 2px #72d779 ;
+}
+
+/*Style the premium package column*/
+p#premium_package {
+    width: 35%;
+    float: right;
+    background-color: #036434;
+    padding: 1em 1em;
+    margin-right:14%;
+    box-shadow: 10px -10px 22px 2px #72d779;
+}
+
+div#summary {
+    overflow: hidden;
+}
+
+/*Overall Styling of the kitchen bar*/
+div#kitchen_bar_article {
+    clear: both;
+    background-image: linear-gradient(red,#2c07a5);
+    margin-top: 3.5em;
+    margin-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    border-radius: 5px;
+}
+
+/*Style the kitchen header image*/
+div#kitchen_bar_article > header img {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+
+}
+
+/*Style the kitchen food image*/
+div#kitchen_bar_article > div#kitchen_bar_article_image img {
+    display: block;
+    margin: 2em auto;
+}
+
+/*Style the two span*/
+div#kitchen_bar_article > div#kitchen_bar_article_image span {
+    background-color: #036434;
+    box-shadow:8px 8px 10px 0px #72d779 ;
+}
+
+/*Style the opening times title*/
+div#kitchen_bar_article > div#kitchen_bar_article_image span#opening_times
+{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    width: 10em;
+    line-height: 2em;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    color: #eeda11;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*Style the open times of the kitchen bar*/
+div#kitchen_bar_article > div#kitchen_bar_article_image span#times_span {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #036434;
+    font-size: 1.1em;
+    width: 10em;
+    line-height: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    color: #eeda11;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*Style the kitch bar link*/
+div#kitchen_bar_article > div#kitchen_bar_article_image span a {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #036434;
+    font-size: 1.1em;
+    width: 10em;
+    line-height: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    color: #eeda11;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*Style the a:link, a:visited, a:hover, a:active link*/
+div#kitchen_bar_article > div#kitchen_bar_article_image span a:link {
+    color: #eeda11; 
+ } 
+
+ div#kitchen_bar_article > div#kitchen_bar_article_image span a:visited {
+    color: rgb(71, 235, 16);
+ } 
+ 
+div#kitchen_bar_article > div#kitchen_bar_article_image span a:hover, article#kitchen_bar_article > div#kitchen_bar_article_image span a:active {
+    background-color: rgba(133, 43, 243, 0.89);
+ } 
+
+ /*Style the footer*/
+footer {
+    background-image: linear-gradient(red,#2c07a5);
+    border-radius: 5px;
+    overflow: hidden;
+ }
+
+/*Style the footer text*/
+footer > div > p {
+    margin-top: 2.4em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    font-family: Helvetica, sans-serif;
+    font-size: 0.9em;
+    color: #eeda11;
+    float: left;
+    width: 55%;
+    } 
+
+footer > div > ul >li {
+     display: block;
+     width: 5%;
+     float: right;
+ }
+
+ /*Style the footer image*/
+footer > div > ul > li > a > img {
+    width: 100%;
+    margin-top: 1.5em;
+    padding-right: 1em;
+    margin-bottom: 1em;
+    
+ }
